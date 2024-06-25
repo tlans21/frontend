@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="../../js/hi.js"></script>
+    <!-- window.onload는 페이지가 로드 되고나서 실행되는 전역 콜백 함수 -->
+    <script>
+        alert("1");
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            /*hi();
+            hi2("나");
+            alert(plus(1, 2)) */
+            var result = plus(10, 20);
+            alert("결과 : " + result);
+        }
+    </script>
+</head>
+<body>
+    <h1>인사말</h1>
+    <script>
+        alert("하단의 스크립트 실행");
+    </script>
+</body>
+</html>
